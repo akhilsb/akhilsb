@@ -1,4 +1,4 @@
-Hi there! I am Akhil Bandarupalli, a Ph.D. student in Computer Science at Purdue University. I am advised by Prof. Aniket Kate and Prof. Saurabh Bagchi. 
+Hi there! I am Akhil Bandarupalli, a postdoctoral associate at Duke University, hosted by Prof. Michael Reiter. I received my Ph.D. in Computer Science at Purdue University where I was advised by Prof. Aniket Kate and Prof. Saurabh Bagchi. 
 
 ### Research Interests
 I design fault-tolerant distributed computing protocols for privacy-preserving computation, and resource-constrained Cyber-Physical Systems. My research combines novel distributed computing techniques with cryptography to build protocols with provable security and efficiency. My current research focuses on computationally efficient distributed protocols for Multi-Party Computation, Asynchronous Random Beacons, and Convex Byzantine Agreement. I practically implement my research and aim to produce quality software artifacts that can be employed in real-world applications.
