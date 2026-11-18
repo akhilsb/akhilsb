@@ -1,14 +1,14 @@
 Hi there! I am Akhil Bandarupalli, a Ph.D. student in Computer Science at Purdue University. I am advised by Prof. Aniket Kate and Prof. Saurabh Bagchi. 
 
 ### Research Interests
-I design fault-tolerant distributed computing protocols for blockchains, privacy-preserving computation, and resource-constrained Cyber-Physical Systems. My research combines novel distributed computing techniques with cryptography to build protocols with provable security and efficiency. My current research focuses on computationally efficient distributed protocols for Multi-Party Computation, Asynchronous Random Beacons, and Convex Byzantine Agreement. I practically implement my research and aim to produce quality software artifacts that can be employed in real-world applications.
+I design fault-tolerant distributed computing protocols for privacy-preserving computation, and resource-constrained Cyber-Physical Systems. My research combines novel distributed computing techniques with cryptography to build protocols with provable security and efficiency. My current research focuses on computationally efficient distributed protocols for Multi-Party Computation, Asynchronous Random Beacons, and Convex Byzantine Agreement. I practically implement my research and aim to produce quality software artifacts that can be employed in real-world applications.
 
 ### Artifacts
 I produced multiple software artifacts as part of my research. Each artifact is set up in a separate Github repository. 
 
-1. The `Velox-MPC` repository implements Velox, an asynchronous Multi-Party Computation protocol published at ACM CCS'25, in Rust. This codebase orchestrates multiple smaller distributed protocols to build MPC, often deemed to be the holy grail of cryptography, in real-world networks. This codebase executes reliably in systems comprising hundreds of parties with a high degree of concurrency and parallelism. 
+1. The `velox` repository implements Velox, an asynchronous Multi-Party Computation protocol published at ACM CCS'25, in Rust. This codebase orchestrates multiple smaller distributed protocols to build MPC, often deemed to be the holy grail of cryptography, in real-world networks. This codebase executes reliably in systems comprising hundreds of parties with a high degree of concurrency and parallelism. 
 
-2. The `Secure-Distributed-Computing-Protocols` repository contains implementations of multiple distributed protocols, which act as building blocks of fault-tolerant distributed systems, in Rust. Any entity who wants to implement complex asynchronous distributed systems can use the implementations in this repo in a plug-and-play manner and do not have to implement every sub-primitive from scratch.
+2. The `secure-distributed-computing-protocols` repository contains implementations of multiple distributed protocols, which act as building blocks of fault-tolerant distributed systems, in Rust. Any entity who wants to implement complex asynchronous distributed systems can use the implementations in this repo in a plug-and-play manner and do not have to implement every sub-primitive from scratch.
 
 3. The `acss-rs` repository implements highly performant Verifiable Secret Sharing (VSS) protocols that can facilitate secret sharing of millions of secrets among hundreds of parties. These protocols utilize computationally efficient (or lightweight) cryptographic primitives like symmetric-key encryption and cryptographic Hash functions for performance efficiency. 
 
